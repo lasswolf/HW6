@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interior Design Project Details</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <div id="app1">
+            <page-header></page-header>
+            <banner
+                image="img/banners/project_details_banner.jpg"
+                :box="false"
+            ></banner>
+        </div>
+
+        <div id="app2">
+            <div class="project center">
+                <div class="project_content">
+                    <h2 class="project_header">Minimal Look Bedrooms</h2>
+                    <p class="project_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Aliquamsem vitae turpis dignissim maximus. Aliquam
+                        sollicitudin tellumassa, vbel maximus purus posuere in.
+                        Dojrices gravida dignissim. Praesent at nibh in mi
+                        fringilla mattis. Phasellus ut dolor odio. Aenean in the
+                        ipsum vel lectus bibendum commodo.
+                    </p>
+                    <p class="project_text">
+                        In nec sem suscipit, convallis leo vitae, lacinia nibh.
+                        Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis
+                        nibh id, pellentesque arcu. Donec a pellentesque Cras
+                        erat enim, gravida non ante vitae,elequis convallis
+                        elit, in viverra felis. Donec ultrices tellus vitae
+                        iaculisvd porta. Proin tincidunt ligula id purus
+                        porttitor.
+                    </p>
+                </div>
+                <div class="project_slider">
+                    <div class="slider_container">
+                        <div class="slider_imagebox">
+                            <div class="slider_image">
+                                <img
+                                    src="/img/slider/slide01.jpg"
+                                    alt="slider image"
+                                />
+                                <div class="slider_zoom">
+                                    <img
+                                        src="/img/slider/slider_icon.svg"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider_imagebox">
+                            <div class="slider_image">
+                                <img
+                                    src="/img/slider/slide02.jpg"
+                                    alt="slider image"
+                                />
+                            </div>
+                        </div>
+                        <div class="slider_imagebox">
+                            <div class="slider_image">
+                                <img
+                                    src="/img/slider/slide03.jpg"
+                                    alt="slider image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider_switch center">
+                        <button class="slider_btn"></button
+                        ><button class="slider_btn"></button
+                        ><button class="slider_btn"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="app3">
+            <page-footer></page-footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="script/article_array.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>
